@@ -1,0 +1,70 @@
+.header {
+    padding: 20px 100px;
+    border-bottom: 1px solid hsla(0, 3%, 74%, 0.603);
+}
+
+.logo {
+    width: 15px;
+    height: 40px;
+}
+
+.navigation__menu .nav__menu .nav__link {
+    padding: 10px 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.navigation__menu .nav__menu .form-select {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.navigation__menu .header__btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+.btn__close,
+.btn__show {
+    display: none;
+}
+
+@media screen and (max-width:1045px) {
+    .header{
+        padding: 10px 20px;
+    }
+    .nav__menu {
+        position: fixed;
+        width: 300px;
+        height: 100%;
+        top: 0;
+        right: -120%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: -2px 0px 4px rgb(214, 210, 210);
+        background-color: white;
+        transition: 0.5s;
+    }
+    .btn__close {
+        display: block !important;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .btn__show {
+        display: block;
+        margin-left: 10px;
+    }
+    .show__nav-menu{
+        right: 0;
+        transition: 0.5s;
+    }
+}

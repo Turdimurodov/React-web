@@ -1,0 +1,85 @@
+.home .home__name {
+    /* Get ahead of the pack. */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+    color: #333333;
+}
+
+.home .home__text {
+    /* Framer is the best way to create interactive designs from start to finish. */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 39px;
+    text-align: center;
+    color: #4F4F4F;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.home input {
+    /* Rectangle */
+    width: 314px;
+    height: 52px;
+    border: 1px solid rgba(189, 189, 189, 0.39);
+    box-sizing: border-box;
+    border-radius: 2px 0px 0px 2px;
+}
+
+.home .btn1 {
+    /* Rectangle 2 */
+    width: 189px;
+    background: #00AAFF;
+    border-radius: 0px 2px 2px 0px;
+}
+
+@media screen and (max-width:1203px) {
+    .home input {
+        width: 300px;
+        height: 52px;
+    }
+    .home .btn1 {
+        width: 150px;
+        font-size: 10px;
+    } 
+}
+
+@media screen and (max-width:992px) {
+    .home .home__name {
+        font-size: 60px;
+        line-height: 50px;
+    }
+    .home input {
+        width: 300px !important;
+        height: 52px !important;
+    }
+    .home .btn1 {
+        width: 150px;
+        font-size: 10px;
+    } 
+}
+
+@media screen and (max-width:768px) {
+    .home .home__name {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .home .home__text {
+        width: 100% !important;
+        font-size: 20px;
+        line-height: 28px;
+        margin: 10px 0px !important;
+    }
+    .home input {
+        width: 300px !important;
+        height: 52px !important;
+    }
+    .home .btn1 {
+        width: 150px;
+        font-size: 10px;
+    } 
+}
